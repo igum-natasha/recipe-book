@@ -1,0 +1,13 @@
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 500px;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.btn {
+  width: 40px;
+  height: 40px;
+}
+

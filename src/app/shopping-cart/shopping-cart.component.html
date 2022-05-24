@@ -1,0 +1,12 @@
+<div class="main">
+  <h1>Chocolate Protein Muffins</h1>
+  <h2>Ingredients</h2>
+<input type="text" [formControl]="todoInput" (keydown.enter)="addTodo()">
+<button class="btn" (click)="addTodo()">Update</button>
+<ul>
+  <li *ngFor="let todo of todos">
+    <app-todo class="item-text" [todo]="todo" (delete)="deleteTodo(todo)"></app-todo>
+  </li>
+</ul>
+
+</div>
